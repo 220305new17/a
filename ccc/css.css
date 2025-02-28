@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(188, 193, 198);
+ 
+}
+
+
+
+header {
+    background-color:#3f3e40;
+    background: linear-gradient(#3f3e40,rgb(249, 247, 247));
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 30px;
+    width: 100%;
+    
+   
+}
+hh{
+    font-family: monospace;
+}
+nav {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+.lobas{
+    width: 200px;
+    height: 200px;
+}
+.contenido {
+    flex: 3;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    height: 299px;
+color: white;
+background-color: #3f3e40;
+border-radius: 20px;  
+background: linear-gradient(#3f3e40,rgb(249, 247, 247));
+
+  
+}
+
+.imgg{
+    width: 300px;
+    height: 300px;
+    float: right;
+    display: flex;
+    border-radius: 10px;
+
+}
+.publicidad {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    margin-left: 20px;
+    border-radius: 20px;
+background-color: black;
+    height: 280;
+    
+   
+ color: white;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
